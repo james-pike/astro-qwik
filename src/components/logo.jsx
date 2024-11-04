@@ -5,8 +5,8 @@ const Logo = component$(() => (
     <img
       src={"/images/logo1.png"}
       class="inline-block mr-1"
-      width={120}
-      height={40}
+      width={130}
+      height={44}
       alt="Qwind Logo"/>
   </span>
 ));
