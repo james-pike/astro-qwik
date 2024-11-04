@@ -73,26 +73,26 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          text: '#d9dbdf',
-          primary: '#f056c7',
-          secondary: '#a4a0fb',
-          tertiary: '#58e6d9',
-          muted: '#605c9d',
-          salmon: '#ff6090',
-          mauve: '#4871e3',
-          teal: '#00bcd4',
-          lime: '#8bc34a',
-          yellow: '#ffc107',
-          fuchsia: '#7B1FA2',
-          blood: '#fc5656',
-          starfleet: '#0091f7',
-          electric: '#b900f7',
-          pink: '#ee3373',
-          background: '#131127',
-          outline: '#232140',
-          surface: '#16142c',
-          guide: '#2d2a58',
-          radar: '#57538c',
+          text: '#333333',          // Dark gray for text, easier to read on a lighter background
+          primary: '#1D4ED8',       // Business blue, inspired by classic corporate blue tones
+          secondary: '#2563EB',     // Slightly brighter blue for accents
+          tertiary: '#93C5FD',      // Light blue, friendly for highlights
+          muted: '#64748B',         // Muted gray-blue for subtle elements
+          salmon: '#FB7185',        // Lighter salmon, keeps a vibrant touch
+          mauve: '#6366F1',         // Soft violet for less intense accents
+          teal: '#06B6D4',          // Bright teal, adds a fresh color pop
+          lime: '#84CC16',          // Lightened lime, adds energy while staying readable
+          yellow: '#F59E0B',        // Warm yellow for caution or highlights
+          fuchsia: '#C026D3',       // Brighter fuchsia for attention-grabbing elements
+          blood: '#F87171',         // Softer red for alerts, not too intense
+          starfleet: '#3B82F6',     // Bright blue, good for buttons and links
+          electric: '#7C3AED',      // Electric violet for occasional flair
+          pink: '#EC4899',          // Lightened pink, playful but easier to read
+          background: '#F3F4F6',    // Light gray, safer on the eyes for a bright background
+          outline: '#CBD5E1',       // Light gray-blue, subtle contrast against background
+          surface: '#E5E7EB',       // Very light gray, for cards or surfaces on the background
+          guide: '#9CA3AF',         // Medium gray, guides or borders
+          radar: '#D1D5DB',   
         },
       },
       fontFamily: {
