@@ -13,7 +13,7 @@ const NavLink = component$<Props>(({ title, icon, stroke, slug, isActive, newCou
   return (
     <a
       href={slug}
-      class={`relative not-prose inline-flex items-center gap-3 rounded-full px-3 pr-4 py-2 border-transparent hover:bg-brand-surface border hover:border-brand-outline transition-colors duration-300 ${
+      class={`relative not-prose inline-flex items-center gap-3 rounded-full px-3 pr-4 py-0 border-transparent hover:bg-brand-surface border hover:border-brand-outline transition-colors duration-300 ${
         isActive ? 'text-brand-primary' : 'hover:text-brand-text text-slate-300'
       }`}
     >
