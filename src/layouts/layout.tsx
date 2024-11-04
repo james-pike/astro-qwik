@@ -121,7 +121,7 @@ const Layout = component$<Props>(({ fullWidth, slug, search }) => {
             <div class='relative'>
               <ul class='flex flex-col gap-2 m-0 p-0 pt-4 list-none'>
                 <li class='m-0 p-0'>
-                  <QuickSearch handleModal={handleModal} />
+                  {/* <QuickSearch handleModal={handleModal} /> */}
                 </li>
                 {siteLinks.map((item, index) => {
                   const { title, icon, stroke, link } = item;
