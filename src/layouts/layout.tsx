@@ -67,7 +67,7 @@ const Layout = component$<Props>(({ fullWidth, slug, search }) => {
           <div class='py-0 mx-4 lg:px-8 lg:mx-0'>
             <div class='relative flex items-center gap-8'>
               <a class='flex items-center h-20' href='/' aria-current='page'>
-                <span class='sr-only'>Paul Scanlon's Site</span>
+                <span class='sr-only'>Paul Scanlon'ss Site</span>
                 <Logo />
               </a>
               <div class='relative flex lg:hidden items-center ml-auto'>
