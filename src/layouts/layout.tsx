@@ -132,7 +132,7 @@ const Layout = component$<Props>(({ fullWidth, slug, search }) => {
                   const isActive = s.length <= 0 && s.startsWith(l) ? true : l.length > 0 && s.startsWith(l);
 
                   return (
-                    <li key={index} class='m-0 p-0'>
+                    <li key={index} class='m-0 p-0 text-2xl'>
                       <NavLink
                         title={title}
                         icon={icon}
@@ -178,7 +178,7 @@ const Layout = component$<Props>(({ fullWidth, slug, search }) => {
               <footer class='relative mt-24 py-8 bg-brand-background z-20'>
                 <div class='flex gap-8 text-xs text-brand-secondary/80'>
                   <a href='/web-accessability/' class='font-inherit text-inherit'>
-                    Accessability Statement
+                    Accessibility Statement
                   </a>
                 </div>
               </footer>
