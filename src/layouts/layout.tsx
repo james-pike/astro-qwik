@@ -178,7 +178,7 @@ const Layout = component$<Props>(({ fullWidth, slug, search }) => {
               <footer class='relative mt-24 py-8 bg-brand-background z-20'>
                 <div class='flex gap-8 text-xs text-brand-secondary/80'>
                   <a href='/web-accessability/' class='font-inherit text-inherit'>
-                    Accessibility Statement
+                    Accessability Statement
                   </a>
                 </div>
               </footer>
